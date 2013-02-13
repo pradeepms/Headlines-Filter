@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">DayLifeSearch</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">DayLife</string>
+    <string name="search">Search</string>
+    <string name="go">Go</string>
+
+</resources>
