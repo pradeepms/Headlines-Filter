@@ -6,8 +6,8 @@ News application that fetches news headlines about chosen topics from [Daylife.c
 
 
 ## Screen Shots
-![Alt text](http://pradeepms.do.am/GitHub-Images/news-1.png "Main UI")
-![Alt text](http://pradeepms.do.am/GitHub-Images/news-2.png "Webkit View")
+![Alt text](http://pradeepms.do.am/GitHub-Images/news1.png "Headlines UI")
+![Alt text](http://pradeepms.do.am/GitHub-Images/news2.png "Webkit UI")
 
 
 ###uses-permission
