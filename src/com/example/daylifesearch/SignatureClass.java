@@ -8,8 +8,8 @@ public class SignatureClass  {
 	public String signatureCall(String query) {
 		
 		
-		String accesskey = "55b84e19f67f128dc4a0cd74cc413471";
-		String sharedsecret = "6f06fa944d3f9b184f508045863b86d6";
+		String accesskey = "";
+		String sharedsecret = "";
 		String server = "freeapi.daylife.com";
 		String version = "4.10";
 		
