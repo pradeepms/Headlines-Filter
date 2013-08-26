@@ -2,7 +2,31 @@
 
 
 ##Description:
-News application that fetches news headlines about chosen topics from [Daylife.com] (http://Daylife.com).
+A simple news application based on [Spring for Android](http://www.springsource.org/spring-android) framework.</br>
+It fetches news headlines about chosen topics from [Daylife.com] (http://Daylife.com)
+
+
+## Library dependencies
+1. Grab them using maven.
+	
+	<dependency>
+	<groupId>org.springframework.android</groupId>
+	<artifactId>spring-android-rest-template</artifactId>
+	<version>1.0.1.RELEASE</version>
+	</dependency>
+
+
+	<dependency>
+	<groupId>com.fasterxml.jackson.core</groupId>
+	<artifactId>jackson-databind</artifactId>
+	<version>2.1.2</version>
+	</dependency>
+
+####Or
+
+2. Add jars to projectname/libs folder
+* [Spring for Android](http://www.springsource.org/spring-community-download) jar.
+* [Jackson](http://wiki.fasterxml.com/JacksonDownload) jar.
 
 
 ## Screen Shots
@@ -14,4 +38,4 @@ News application that fetches news headlines about chosen topics from [Daylife.c
 	<uses-permission android:name="android.permission.INTERNET"/>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
       
-Link to [My Website] (http://pradeepms.do.am)
+Link to my [Website] (http://pradeepms.do.am)
