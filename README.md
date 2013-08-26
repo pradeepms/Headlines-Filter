@@ -14,14 +14,12 @@ It fetches news headlines about chosen topics from [Daylife.com] (http://Daylife
 <artifactId>spring-android-rest-template</artifactId>
 <version>1.0.1.RELEASE</version>
 </dependency>
-<code><pre>
-```
+</code></pre>
 <dependency>
 <groupId>com.fasterxml.jackson.core</groupId>
 <artifactId>jackson-databind</artifactId>
 <version>2.1.2</version>
 </dependency>
-```
 or
 2. Add jars to projectname/libs folder
 * [Spring for Android](http://www.springsource.org/spring-community-download) jar.
