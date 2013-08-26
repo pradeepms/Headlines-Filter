@@ -1,5 +1,7 @@
 <resources>
 
     <style name="AppTheme" parent="android:Theme.Light" />
+    <color name="list_pressed">#F235C6</color>
+    <color name="list_color">#FFF</color>
 
 </resources>

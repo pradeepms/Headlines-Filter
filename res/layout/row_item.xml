@@ -2,20 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:weightSum="5" >
 
     <TextView
         android:id="@+id/rowText"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="4"
         android:layout_height="fill_parent"
         android:gravity="center_vertical"
+        android:paddingLeft="10dp"
         android:textColor="#686967"
-        android:textSize="18dp"
-        android:typeface="serif"
-        android:textStyle="bold"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:minHeight="?android:attr/listPreferredItemHeight"
-        android:background="@drawable/list_selector"
-        android:paddingLeft="10dp"/>
+        android:layout_gravity="center_vertical" />
+    
+    <ImageView 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:src="@drawable/navigation_next_item"
+        android:layout_weight="1"/>
 
 </LinearLayout>
