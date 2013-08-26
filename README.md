@@ -21,7 +21,7 @@ It fetches news headlines about chosen topics from [Daylife.com] (http://Daylife
 &lt;artifactId&gt;jackson-databind&lt;/artifactId&gt;
 &lt;version&gt;2.1.2&lt;/version&gt;
 &lt;/dependency&gt;
-<pre><code>
+</pre></code>
 or
 2. Add jars to projectname/libs folder
 * [Spring for Android](http://www.springsource.org/spring-community-download) jar.
