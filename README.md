@@ -24,8 +24,8 @@ It fetches news headlines about chosen topics from [Daylife.com] (http://Daylife
 </pre></code>
 or
 2. Add jars to projectname/libs folder
-* [Spring for Android](http://www.springsource.org/spring-community-download) jar.
-* [Jackson](http://wiki.fasterxml.com/JacksonDownload) jar.
+*	[Spring for Android](http://www.springsource.org/spring-community-download) jar.
+*	[Jackson](http://wiki.fasterxml.com/JacksonDownload) jar.
 
 
 ## Screen Shots
@@ -34,8 +34,8 @@ or
 
 
 ###uses-permission
-    <uses-permission android:name="android.permission.INTERNET"/>
-		<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
 		      
-		Link to my [Website] (http://pradeepms.do.am)
+Link to my [Website] (http://pradeepms.do.am)
 
