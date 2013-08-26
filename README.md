@@ -24,8 +24,8 @@ It fetches news headlines about chosen topics from [Daylife.com] (http://Daylife
 </pre></code>
 or
 2. Add jars to projectname/libs folder
-*	[Spring for Android](http://www.springsource.org/spring-community-download) jar.
-*	[Jackson](http://wiki.fasterxml.com/JacksonDownload) jar.
+[Spring for Android](http://www.springsource.org/spring-community-download) jar.
+[Jackson](http://wiki.fasterxml.com/JacksonDownload) jar.
 
 
 ## Screen Shots
