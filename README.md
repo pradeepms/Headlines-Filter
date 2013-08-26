@@ -8,7 +8,6 @@ It fetches news headlines about chosen topics from [Daylife.com] (http://Daylife
 
 ## Library dependencies
 1. Grab them using maven.
-```
 <pre><code>
 <dependency>
 <groupId>org.springframework.android</groupId>
@@ -16,7 +15,6 @@ It fetches news headlines about chosen topics from [Daylife.com] (http://Daylife
 <version>1.0.1.RELEASE</version>
 </dependency>
 <code><pre>
-```
 ```
 <dependency>
 <groupId>com.fasterxml.jackson.core</groupId>
