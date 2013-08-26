@@ -11,7 +11,7 @@ News application that fetches news headlines about chosen topics from [Daylife.c
 
 
 ###uses-permission
-      android:name="android.permission.INTERNET"
-      
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
       
 Link to [My Website] (http://pradeepms.do.am)
