@@ -8,12 +8,14 @@ It fetches news headlines about chosen topics from [Daylife.com] (http://Daylife
 
 ## Library dependencies
 1. Grab them using maven.
-```xml
+```
 <dependency>
 <groupId>org.springframework.android</groupId>
 <artifactId>spring-android-rest-template</artifactId>
 <version>1.0.1.RELEASE</version>
 </dependency>
+```
+```
 <dependency>
 <groupId>com.fasterxml.jackson.core</groupId>
 <artifactId>jackson-databind</artifactId>
