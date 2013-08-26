@@ -8,16 +8,19 @@ It fetches news headlines about chosen topics from [Daylife.com] (http://Daylife
 
 ## Library dependencies
 1. Grab them using maven.
+<pre><code>
 &lt;dependency&gt;
 &lt;groupId&gt;org.springframework.android&lt;/groupId&gt;
-<artifactId>spring-android-rest-template</artifactId>
-<version>1.0.1.RELEASE</version>
-</dependency>
-<dependency>
-<groupId>com.fasterxml.jackson.core</groupId>
-<artifactId>jackson-databind</artifactId>
-<version>2.1.2</version>
-</dependency>
+&lt;artifactId&gt;spring-android-rest-template&lt;/artifactId&gt;
+&lt;version&gt;1.0.1.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+
+&lt;dependency&gt;
+&lt;groupId&gt;com.fasterxml.jackson.core&lt;/groupId&gt;
+&lt;artifactId&gt;jackson-databind&lt;/artifactId&gt;
+&lt;version&gt;2.1.2&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
 or
 2. Add jars to projectname/libs folder
 * [Spring for Android](http://www.springsource.org/spring-community-download) jar.
@@ -30,7 +33,8 @@ or
 
 
 ###uses-permission
-	<uses-permission android:name="android.permission.INTERNET"/>
-	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
-      
-Link to my [Website] (http://pradeepms.do.am)
+    <uses-permission android:name="android.permission.INTERNET"/>
+		<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
+		      
+		Link to my [Website] (http://pradeepms.do.am)
+
