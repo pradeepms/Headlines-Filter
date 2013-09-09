@@ -6,6 +6,46 @@ A simple news application which uses [Spring for Android](http://www.springsourc
 framework, and Jackson library for deserialization (JSON - Java object)<br />
 And this application fetches news headlines about chosen topics from [Daylife.com] (http://Daylife.com)
 
+#### JSON Sample
+<pre>
+<code>
+
+{
+    "response": {
+        "message": "Success",
+        "code": 2002,
+        "payload": {
+            "article": [
+                {
+                    "timestamp_epoch": 1378121520,
+                    "search_score": 10,
+                    "headline": "Windows Phone is a 'real adversary' to Android and iOS",
+                    "daylife_url": "http://www.daylife.com/article/063X24ub9z20k",
+                    "related_article_count": 0,
+                    "excerpt": "...Kantar Worldpanel Comtech, it appears that Microsoft's operating system has established itself as a \"real adversary\" to Android and iOS. That appears to be no small feat. Between May and July 2013, Windows Phones accounted for 8.2 percent of all smartphone...",
+                    "source": {
+                        "name": "BetaNews",
+                        "url": "http://www.betanews.com/",
+                        "daylife_url": "http://www.daylife.com/source/BetaNews",
+                        "rank": 3,
+                        "favicon_url": "http://favicon.daylife.com/imageserve/04Xbd7E3eHeuJ/favicon.png",
+                        "source_id": "04Xbd7E3eHeuJ",
+                        "type": "MAINSTREAM"
+                    },
+                    "url": "http://feeds.betanews.com/~r/bn/~3/1KN2ozEOMeY/",
+                    "timestamp": "2013-09-02 11:32:00",
+                    "article_id": "063X24ub9z20k"
+                },
+                {
+                    "timestamp_epoch": 1378174980,
+                    "search_score": 9.72811863391,
+                    ...
+                    ...
+                    ...
+                    ...
+
+</code>
+</pre>
 
 ## Library dependencies
 1. Grab them using maven.
