@@ -2,8 +2,9 @@
 
 
 ##Description:
-A simple news application based on [Spring for Android](http://www.springsource.org/spring-android) framework.</br>
-It fetches news headlines about chosen topics from [Daylife.com] (http://Daylife.com)
+A simple news application which uses [Spring for Android](http://www.springsource.org/spring-android) rest client 
+framework, and Jackson library for deserialization (JSON - Java object)<br />
+And this application fetches news headlines about chosen topics from [Daylife.com] (http://Daylife.com)
 
 
 ## Library dependencies
@@ -23,10 +24,11 @@ It fetches news headlines about chosen topics from [Daylife.com] (http://Daylife
 &lt;/dependency&gt;
 </pre></code>
 or
-2. Add jars to projectname/libs folder
-[Spring for Android](http://www.springsource.org/spring-community-download) jar.
-[Jackson](http://wiki.fasterxml.com/JacksonDownload) jar.
-
+2. Add jars to project_name/libs folder <br />
+<pre>
+    [Spring for Android](http://www.springsource.org/spring-community-download) jar. <br />
+    [Jackson](http://wiki.fasterxml.com/JacksonDownload) jar.
+</pre>
 
 ## Screen Shots
 ![Alt text](http://pradeepms.do.am/GitHub-Images/news1.png "Headlines UI")
