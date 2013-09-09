@@ -9,7 +9,6 @@ And this application fetches news headlines about chosen topics from [Daylife.co
 #### JSON Sample
 <pre>
 <code>
-
 {
     "response": {
         "message": "Success",
@@ -38,12 +37,8 @@ And this application fetches news headlines about chosen topics from [Daylife.co
                 },
                 {
                     "timestamp_epoch": 1378174980,
-                    "search_score": 9.72811863391,
                     ...
                     ...
-                    ...
-                    ...
-
 </code>
 </pre>
 
