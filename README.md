@@ -30,7 +30,7 @@ or
     [Jackson](http://wiki.fasterxml.com/JacksonDownload) jar.
 </pre>
 
-## Screen Shots
+###Screen-shots
 ![Alt text](http://pradeepms.do.am/GitHub-Images/news1.png "Headlines UI")
 ![Alt text](http://pradeepms.do.am/GitHub-Images/news2.png "Webkit UI")
 
