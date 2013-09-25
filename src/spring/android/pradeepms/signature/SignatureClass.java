@@ -8,8 +8,8 @@ public class SignatureClass  {
 	public String signatureCall(String query) {
 		
 		// Note : Register in Daylife.com to get accesskey and sharedsecret :)
-		String accesskey = "Your accesskey";
-		String sharedsecret = "Your sharedsecret";
+		String accesskey = "your_accesskey_here";
+		String sharedsecret = "your_sharedkey_here";
 		String server = "freeapi.daylife.com";
 		String version = "4.10";
 		
