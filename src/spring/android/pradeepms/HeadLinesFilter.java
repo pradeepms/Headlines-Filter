@@ -10,14 +10,17 @@ import org.springframework.http.converter.StringHttpMessageConverter;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 
+import com.actionbarsherlock.app.ActionBar;
+import com.actionbarsherlock.app.SherlockActivity;
+
 import spring.android.pradeepms.R;
 import spring.android.pradeepms.Payload.Article;
 import spring.android.pradeepms.signature.SignatureClass;
 
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
@@ -30,9 +33,10 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
-public class HeadLinesFilter extends Activity implements OnClickListener,
+public class HeadLinesFilter extends SherlockActivity implements OnClickListener,
 		OnItemClickListener {
 
 	protected static String TAG = HeadLinesFilter.class.getSimpleName();
@@ -46,6 +50,14 @@ public class HeadLinesFilter extends Activity implements OnClickListener,
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.activity_main);
+		Typeface myTypeface = Typeface.createFromAsset(getAssets(), "Roboto-Regular.ttf");
+		
+		getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM); 
+		getSupportActionBar().setCustomView(R.layout.ab_title);
+		TextView headline = (TextView) findViewById(R.id.headline);
+		headline.setTypeface(myTypeface);
+		
+		
 		search = (EditText) findViewById(R.id.search);
 		go = (ImageButton) findViewById(R.id.go);
 		list = (ListView) findViewById(R.id.searchResults);
@@ -66,8 +78,10 @@ public class HeadLinesFilter extends Activity implements OnClickListener,
 			new readJSONTask()
 			.execute("http://freeapi.daylife.com/jsonrest/publicapi/4.10/search_getRelatedArticles?query="
 					
-					+ "&limit=20&accesskey=Add_Your_AccessKey_here&signature="
+					+ "&limit=20&accesskey=your_access_key_here&signature="
 					+ signature);
+			
+			
 		}
 		go.setOnClickListener(this);
 		list.setOnItemClickListener(this);
@@ -131,7 +145,7 @@ public class HeadLinesFilter extends Activity implements OnClickListener,
 			// Perform the HTTP GET request
 			DayLifeJSON responseEntity = restTemplate.getForObject(url,
 					DayLifeJSON.class);
-
+			System.out.println("########## "+responseEntity.getResponse().getCode());
 			System.out.println(responseEntity.getResponse().getPayload()
 					.getArticle().size());
 
