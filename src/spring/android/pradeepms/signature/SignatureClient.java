@@ -12,15 +12,10 @@ public class SignatureClient {
 
 	private final String _sharedsecret;
 	private final String _accesskey;
-	private final String _server;
-	private final String _version;
-
 	public SignatureClient(String accesskey, String sharedsecret,
 			String server, String version) {
 		_accesskey = accesskey;
 		_sharedsecret = sharedsecret;
-		_server = server;
-		_version = version;
 	}
 
 	public String call(String method_name, Map<String, String> params) {

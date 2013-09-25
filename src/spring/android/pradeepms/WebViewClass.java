@@ -1,8 +1,11 @@
 package spring.android.pradeepms;
 
+import com.actionbarsherlock.app.ActionBar;
+import com.actionbarsherlock.app.SherlockActivity;
+
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.app.ProgressDialog;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
 import android.webkit.WebChromeClient;
@@ -10,8 +13,9 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 
-public class WebViewClass extends Activity {
+public class WebViewClass extends SherlockActivity {
 	WebView webView;
 	String URL;
 	ProgressDialog dialog;
@@ -23,8 +27,16 @@ public class WebViewClass extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.web_view_layout);
+		Typeface myTypeface = Typeface.createFromAsset(getAssets(),
+				"Roboto-Regular.ttf");
+
+		getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+		getSupportActionBar().setCustomView(R.layout.ab_title);
+		TextView headline = (TextView) findViewById(R.id.headline);
+		headline.setTypeface(myTypeface);
+
 		webView = (WebView) findViewById(R.id.webView);
-		
+
 		pd = (ProgressBar) findViewById(R.id.progress_bar);
 
 		URL = getIntent().getStringExtra("url");
