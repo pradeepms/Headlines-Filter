@@ -66,13 +66,10 @@ or
 </pre>
 
 ###Screen-shots
-![Alt text](http://pradeepms.do.am/GitHub-Images/news1.png "Headlines UI")
-![Alt text](http://pradeepms.do.am/GitHub-Images/news2.png "Webkit UI")
+![Alt text](http://pradeepms.github.io/images/Readme_images/news1.png "Headlines UI")
+![Alt text](http://pradeepms.github.io/images/Readme_images/news2.png "Webkit UI")
 
 
-###uses-permission
-	<uses-permission android:name="android.permission.INTERNET"/>
-	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
 		      
 Link to my [Website] (http://pradeepms.do.am)
 
