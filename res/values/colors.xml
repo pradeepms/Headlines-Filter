@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue">#297CA6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pink">#FC7575</color>
+    <color name="page_background">#FFF</color>
+    <color name="actionbar_icon_pressed">#18A05D</color>
+    <color name="button_color">#F25E5E</color>
+    <color name="button_shadow_color">#D90B08</color>
+
+</resources>

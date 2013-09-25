@@ -1,7 +1,18 @@
 <resources>
 
     <style name="AppTheme" parent="android:Theme.Light" />
+
     <color name="list_pressed">#F235C6</color>
     <color name="list_color">#FFF</color>
+
+    <style name="custom_theme" parent="@style/Theme.Sherlock">
+        <item name="android:windowBackground">@color/page_background</item>
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.ActionBar.Solid">
+        <item name="background">@drawable/background</item>
+        <item name="android:background">@drawable/background</item>
+    </style>
 
 </resources>
