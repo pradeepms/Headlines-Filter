@@ -69,7 +69,5 @@ or
 ![Alt text](http://pradeepms.github.io/images/Readme_images/news1.png "Headlines UI")
 ![Alt text](http://pradeepms.github.io/images/Readme_images/news2.png "Webkit UI")
 
-
-		      
-Link to my [Website] (http://pradeepms.do.am)
-
+###Credits
+Thanks to my friend [Akash Manohar] (https://twitter.com/HashNuke), for this app idea.
